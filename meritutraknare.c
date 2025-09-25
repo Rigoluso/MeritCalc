@@ -14,16 +14,17 @@ int main() {
         
     }
     
-    if(ans < 290)
+    if(ans < 300)
     {
-        printf("Practise more because you \"only\" have %.1f points", ans);
+        printf("Practice more because you \"only\" have %.1f points", ans);
     }
     else
     {
-        printf("NICE you just enterd NTI with %.1f points!", ans);
+        printf("NICE you just entered a good with %.1f points!", ans);
     }
     
     printf("\n\nPress any key to exit\n");
     scanf("%d", &input[0]);
     return 0;
+
 }
